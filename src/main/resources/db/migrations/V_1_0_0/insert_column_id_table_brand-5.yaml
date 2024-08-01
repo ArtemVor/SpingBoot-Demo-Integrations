@@ -1,0 +1,11 @@
+databaseChangeLog:
+  - changeSet:
+      id: add-column-id
+      author: artsiom
+      changes:
+        - addColumn:
+            columns:
+              - column:
+                  name: id
+                  type: uuid
+            tableName: brand
