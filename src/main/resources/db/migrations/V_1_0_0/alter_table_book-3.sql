@@ -1,1 +1,0 @@
-ALTER TABLE book ALTER COLUMN id TYPE uuid USING id::uuid;
